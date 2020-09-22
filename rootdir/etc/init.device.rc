@@ -23,6 +23,14 @@ on init && property:ro.boot.hwname=joyeuse
     setprop ro.boot.product.hardware.sku joyeuse
     start vendor.nfc_hal_service
 
+on early-init
+    # Disable UFS clock scaling
+    write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 0
+
+on property:sys.boot_completed=1
+    # Enable UFS clock scaling back
+    write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 1
+
 # performance optimizations
 # set them when the postboot is parsed
 on property:vendor.post_boot.parsed=1
