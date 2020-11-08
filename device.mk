@@ -13,6 +13,10 @@ $(call inherit-product-if-exists, vendor/xiaomi/miatoll/miatoll-vendor.mk)
 # Device Path
 DEVICE_PATH := device/xiaomi/miatoll
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
