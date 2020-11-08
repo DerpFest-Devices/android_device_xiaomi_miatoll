@@ -21,4 +21,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6250
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Official Tag
+DERP_BUILDTYPE := Official
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
