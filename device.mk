@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sm6250-common/common.mk)
 
 # Inherit proprietary targets
-$(call inherit-product-if-exists, vendor/xiaomi/miatoll/miatoll-vendor.mk)
+$(call inherit-product, vendor/xiaomi/miatoll/miatoll-vendor.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
