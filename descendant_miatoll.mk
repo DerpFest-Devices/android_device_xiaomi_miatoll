@@ -7,6 +7,11 @@
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 $(call inherit-product, vendor/descendant/config/common_full_phone.mk)
 
+#include googleapps
+$(call inherit-product, vendor/gapps/pixel-gapps.mk)
+
+#include descendant sounds
+$(call inherit-product, vendor/sounds/sounds.mk)
 
 PRODUCT_NAME := descendant_miatoll
 PRODUCT_DEVICE := miatoll
