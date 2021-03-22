@@ -23,6 +23,9 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_miatoll
 ODM_MANIFEST_SKUS += \
     joyeuse
 
+# Kernel
+TARGET_KERNEL_CLANG_VERSION  := 13
+
 ODM_MANIFEST_JOYEUSE_FILES := $(DEVICE_PATH)/manifest_joyeuse.xml
 
 # OTA assert
