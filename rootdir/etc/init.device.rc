@@ -117,7 +117,7 @@ on property:vendor.post_boot.parsed=1
     write /sys/module/cpu_boost/parameters/input_boost_ms 58
 
   # power key input boost
-    write /sys/module/cpu_boost/parameters/powerkey_input_boost_freq 0:1248000 1:1248000 6:1555200 7:1555200
+    write /sys/module/cpu_boost/parameters/powerkey_input_boost_freq "0:1248000 1:1248000 6:1555200 7:1555200"
     write /sys/module/cpu_boost/parameters/powerkey_input_boost_ms 58
 
     # ZRAM setup
