@@ -70,29 +70,29 @@ void load_device_properties() {
     if (hwname == "curtana") {
         if (region == "Global_TWO") {
             set_device_props(
-                "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
-                "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
+                "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys",
+                "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys",
                 "Redmi", "curtana", "Redmi Note 9S");
         } else if (region == "India") {
             set_device_props(
-                "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
-                "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
+                "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys",
+                "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys",
                 "Redmi", "curtana", "Redmi Note 9 Pro");
         }
     } else if (hwname == "excalibur") {
         set_device_props(
-                "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
-                "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
+                "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys",
+                "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys",
                 "Redmi", "excalibur", "Redmi Note 9 Pro Max");
     } else if (hwname == "gram") {
         set_device_props(
-                "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
-                "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
+                "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys",
+                "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys",
                 "POCO", "gram", "POCO M2 Pro");
     } else if (hwname == "joyeuse") {
         set_device_props(
-                "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys",
-                "redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys",
+                "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys",
+                "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys",
                 "Redmi", "joyeuse", "Redmi Note 9 Pro");
     }
 }
